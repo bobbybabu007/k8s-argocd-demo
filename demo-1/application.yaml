@@ -4,7 +4,7 @@ metadata:
   name: myapp-argo-application
   namespace: argocd
 spec:
-  project: mycompany-myapp-stack
+  project: default
   source:
     repoURL: https://github.com/bobbybabu007/k8s-argocd-demo.git
     targetRevision: HEAD
