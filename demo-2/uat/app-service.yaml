@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: myapp-service
+  name: demo2app-svc
 spec:
   selector:
-    app: myapp
+    app: demo2app
   ports:
   - port: 80
     protocol: TCP

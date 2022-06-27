@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: myapp
+  name: demo2app
 spec:
   selector:
     matchLabels:
-      app: myapp
-  replicas: 1
+      app: demo2app
+  replicas: 2
   template:
     metadata:
       labels:
-        app: myapp
+        app: demo2app
     spec:
       containers:
-      - name: myapp
+      - name: demo2app
         image: 'bobbybabu007/python-flask-docker-sample:1.1.0'
         ports:
         - containerPort: 5000
