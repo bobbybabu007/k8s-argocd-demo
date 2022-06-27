@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: busybox:latest
+        image: 'nginx:latest'
         ports:
-        - containerPort: 8080
+        - containerPort: 80
