@@ -3,7 +3,7 @@ kind: Kustomization
 
 resources:
   - deployment.yaml
-#  - service.yaml
+  - service.yaml
 #  - k8s/manifests
 
 nameSuffix: '-stack'
