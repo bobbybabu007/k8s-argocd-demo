@@ -52,7 +52,7 @@ kubectl create -f https://raw.githubusercontent.com/bobbybabu007/k8s-argocd-kust
 Realise ArgoCD automation in same K8s cluster.
 
 ```bash
-kubectl create -f https://raw.githubusercontent.com/bobbybabu007/k8s-argocd-kustomize/master/demo-1-argocd/application.yaml
+kubectl create -f https://raw.githubusercontent.com/bobbybabu007/k8s-argocd-kustomize/master/demo-2-argocd/application.yaml
 ```
 </br>
 
