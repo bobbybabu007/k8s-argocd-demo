@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/bobbybabu007/k8s-argocd-demo.git
     targetRevision: HEAD
-    path: demo-1/dev
+    path: demo-1-argocd/dev
   destination:
     server: https://kubernetes.default.svc
     namespace: demo1
