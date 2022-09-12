@@ -29,7 +29,7 @@ kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.pas
 ```bash
 # Download & Setup kustomize binary on Linux
 cd /tmp
-wget https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv4.5.5/kustomize_v4.5.5_darwin_amd64.tar.gz
+wget https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv4.5.7/kustomize_v4.5.7_linux_amd64.tar.gz
 tar xzf kustomize_v4.5.5_darwin_amd64.tar.gz
 sudo mv kustomize /usr/local/bin
 
